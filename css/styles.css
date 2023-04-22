@@ -25,12 +25,37 @@ body {
   background-color: #ffffff;
 }
 
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}
+
+img{
+  display: block;
+}
+
+.button{
+  cursor: pointer;
+  border-radius: 4px;
+}
 .list {
   list-style: none;
+
+  /* display: inline-block; */
+
+  padding: 0;
+  margin: 0;
 }
 
 .link {
   text-decoration: none;
+}
+
+.container{
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  outline: tomato solid;
 }
 
 /**
@@ -40,7 +65,12 @@ body {
 */
 .header {
 }
+ /* .header-container{
+  display: flex; 
+  align-items: center; 
+}  */
 .header-nav {
+   display: flex; 
 }
 .logo {
   font-family: var(--secondary-font);
@@ -50,11 +80,23 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+
+  margin-right: 76px;
+
+  /* margin-top: 24px;
+  margin-bottom: 24px;
+  margin-left: 156px; */
+  margin-right: 76px;
 }
 .logotype {
   color: var(--primary-color);
 }
 .header-nav-list {
+    /* display: flex;  
+    align-items: center;  */
+}
+
+.header-nav{
 }
 .header-nav-item {
 }
@@ -64,6 +106,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-color);
+
+  /* display: block; */
 }
 
 .menu-link:hover,
@@ -72,9 +116,12 @@ body {
 
 }
 .header-address {
-    font-style: normal
+    font-style: normal;
+    display: flex;
+    align-items: center;
 }
 .header-address-list {
+ 
 }
 .header-address-mail {
 }
@@ -108,6 +155,8 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+
+  margin-bottom: 48px;
 }
 .hero-btn {
   font-family: var(--primary-font);
@@ -118,6 +167,13 @@ body {
   cursor: pointer;
   color: #ffffff;
   background: #4d5ae5;
+
+  text-align: center;
+  
+
+  padding: 16px 32px;
+
+  margin-bottom: 188px;
 }
 
 .hero-btn:hover,
@@ -143,6 +199,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-color);
+
+  margin-bottom: 8px;
 }
 .benefits-desc {
   font-size: 16px;
@@ -168,6 +226,8 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: var(--primary-color);
+
+  margin-bottom: 72px;
 }
 .about-list {
    
@@ -195,7 +255,11 @@ body {
   text-transform: capitalize;
   text-align: center;
   color: var(--primary-color);
-  background-color: #F4F4FD
+  background-color: #F4F4FD;
+
+  margin-bottom: 72px;
+
+
 }
 .team-list {
     background: #F4F4FD;
@@ -211,6 +275,9 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-color);
+
+  margin-bottom: 8px;
+  
 }
 .team-desc {
   font-size: 16px;
