@@ -464,8 +464,11 @@ margin-bottom: 32px;
 
 .footer {
   background: var(--primary-color);
+  padding: 100px 0;
 }
 .footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
  
 }
 .footer-desc {
@@ -475,7 +478,6 @@ margin-bottom: 32px;
   color: #f4f4fd;
 
  
-  /* padding-bottom: 16px; */
   max-width: 264px;
 }
 
