@@ -55,7 +55,7 @@ img{
   padding: 0 15px;
   margin: 0 auto;
 
-  outline: tomato solid;
+ 
 }
 
 /**
@@ -64,6 +64,7 @@ img{
   |============================
 */
 .header {
+  border-bottom: 1px solid #E7E9FC;
   
 }
 .header-container{
@@ -169,6 +170,7 @@ img{
 .hero {
     background-color: var(--primary-color);
      text-align: center;
+
    
 }
 .hero-title {
@@ -218,6 +220,8 @@ img{
   |============================
 */
 .benefits {
+  padding-bottom: 120px;
+  padding-top: 120px;
 }
 .benefits-list {
   display: flex;
@@ -255,6 +259,7 @@ img{
 */
 
 .about {
+  padding-bottom: 120px;
     
 }
 .about-title {
@@ -362,9 +367,14 @@ margin-bottom: 32px;
 }
 .filters-list {
   display: flex;
-  /* margin: 0 auto; */
+  justify-content: center; 
+
 }
 .filters-item {
+  /* display: flex; */
+}
+.filters-item:not(:last-child){
+  margin-right: 24px;
 }
 .filters-btn {
   font-family: var(--primary-font);
@@ -376,6 +386,12 @@ margin-bottom: 32px;
 
   color: var(--txt-btn-color);
   background-color: var(--btn-color);
+  border-radius: 4px;
+  border: 1px solid #E7E9FC;
+  padding: 12px 24px ;
+  margin-top: 96px;
+  margin-bottom: 72px;
+  /* align-items: center; */
 }
 
 .filters-btn:hover,
@@ -393,8 +409,21 @@ margin-bottom: 32px;
 .projects {
 }
 .projects-list {
+  display: flex;
+  flex-wrap: wrap;
+
+   
 }
 .projects-item {
+  width: calc((100% - 48px) / 3);
+  margin-right: 24px; 
+
+  border: 1px solid #E7E9FC;
+  margin-bottom: 38px;
+}
+.projects-item:nth-child(3n){
+   margin-right: 0; 
+
 }
 .projects-link {
     text-decoration: none
@@ -414,6 +443,11 @@ margin-bottom: 32px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
+}
+
+.projects-desc{
+  justify-content: center;
+  padding: 32px 16px;
 }
 
 /**
@@ -447,4 +481,10 @@ margin-bottom: 32px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+}
+
+.footer-desc-box{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 156px;
 }
