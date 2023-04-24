@@ -294,9 +294,8 @@ img{
 */
 
 .team {
-   padding: 120px 0;
   background-color: #F4F4FD;
-  padding-bottom: 124px;
+  padding: 120px 0;
      
 }
 .team-title {
@@ -324,6 +323,9 @@ img{
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
      
+}
+.team-container{
+   padding: 32px 16px;
 }
 
 .team-item:not(:last-child){
