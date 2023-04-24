@@ -74,8 +74,6 @@ img{
 }
 
 .header-nav {
-  
-   
 }
 .logo {
   font-family: var(--secondary-font);
@@ -195,15 +193,8 @@ img{
   color: #ffffff;
   background: #4d5ae5;
 
-  
-
-
- 
-  
 
   padding: 16px 32px;
-  
-
   margin-bottom: 188px;
   align-items: center;
 }
