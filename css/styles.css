@@ -410,6 +410,9 @@ padding: 32px 16px;
   margin-right: 24px; 
   margin-bottom: 48px;
 }
+.projects-item:nth-child(n + 4) {
+  margin-bottom: 0;
+}
 .projects-item:nth-child(3n){
    margin-right: 0; 
 
